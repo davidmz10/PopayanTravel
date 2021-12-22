@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="12dp"
+    android:clickable = "true"
+    android:foreground="?selectableItemBackground"
+    android:focusable="true"
+    cardView:cardBackgroundColor="#EBECF1"
+    cardView:cardCornerRadius="20dp"
+    cardView:cardElevation="6dp"
+    cardView:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/itemImage"
+            android:layout_toRightOf="@+id/itemImage"
+            android:hint="Name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overview"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_below="@+id/tvName"
+            android:layout_toEndOf="@+id/itemImage"
+            android:layout_toRightOf="@+id/itemImage"/>
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:layout_below="@+id/tvOverview"
+            android:layout_toEndOf="@+id/itemImage"
+            android:layout_toRightOf="@+id/itemImage"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

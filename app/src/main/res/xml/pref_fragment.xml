@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Permitir notificaciones"
+        android:summary="Autoriza el acceso de notificaciones de la App"
+        android:key="pref_notifs"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:title="Sonido en notificaciones"
+        android:summary="Habilita un sonido de alerta cuando llegan notificaciones"
+        android:key="pref_sound-notifs"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

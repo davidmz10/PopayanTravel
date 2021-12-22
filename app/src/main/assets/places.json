@@ -1,0 +1,32 @@
+{
+  "places": [
+    {
+      "name": "Parque Caldas",
+      "overview": "El corazón de la ciudad",
+      "score": "4.8",
+      "image": "https://pbs.twimg.com/media/DVC2KMkWkAE1ddd.jpg",
+      "description": "Este emblemático parque está ubicado en pleno centro de la ciudad, alrededor de él está en gran medida el sector financiero, estatal y comercial de Popayán, desde este gran destino turístico se pueden disfrutar de los atardeceres más espectaculares y de una increíble vista de la arquitectura de la ciudad, como la Torre del Reloj. Temp: 22°C"
+    },
+    {
+      "name": "Teatro Guillermo Valencia",
+      "overview": "Gran arquitectura",
+      "score": "4.5",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/15/74/b1/d9/teatro-guillermo-valencia.jpg",
+      "description": "Esta obra de arte arquitectónica está ubicada a una cuadra de distancia del Parque Caldas, con una capacidad para 780 personas ha albergado diversas representaciones en su escenario, alternando con obras pertenecientes al género del cinematógrafo y dramaturgo, para todos los diferentes gustos del público en general. Temp: 19°C"
+    },
+    {
+      "name": "Paraninfo Universidad del Cauca",
+      "overview": "Junto a una obra de arte maestra",
+      "score": "4.6",
+      "image": "http://unicauca.edu.co/versionP/sites/default/files/images/paraninfo-restaurado-2015-ok.jpg",
+      "description": "Este gran recinto ubicado a dos cuadras de distancia del Parque Caldas, es el lugar principal donde se realizan las ceremonias de grado de la Universidad del Cauca, su diseño particular destaca la arquitectura colonial de la ciudad y en él se puede apreciar la famosa obra de arte 'Apoteosis de Popayán', la cual es es un óleo de gran tamaño elaborado por Efraím Martínez, uno de los pintores más destacados de Colombia en el siglo XX. . Temp: 18°C"
+    },
+    {
+      "name": "Pueblito Patojo",
+      "overview": "Representación en miniatura del centro histórico de la ciudad",
+      "score": "4.2",
+      "image": "https://i0.wp.com/elturismoencolombia.com/wp-content/uploads/2018/06/popayan_rincon_payanes_colombia_travel.jpg",
+      "description": "Esta réplica en miniatura de Popayán está ubicada contiguo al antiguo Barrio Caldas. también llamado Rincón Payanés, cuenta con copias pequeñas de los monumentos más representativos de la capital del Cauca, entre los que figuran el Puente del Humilladero, la Torre del Reloj, la Capilla de La Ermita y el Puente Chiquito. Allí se degustan platos típicos de la región y se pueden encontrar artesanías y libros. . Temp: 21°C"
+    }
+  ]
+}
